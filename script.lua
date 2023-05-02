@@ -46,13 +46,13 @@ local function dump_all_excel()
 
         for j = 0, fields.Length - 1 do
             local field = fields[j]
-            if field.Name == "LCCHNOGEDKC" and type:GetMethod("HJGCEDGOGDH") then
+            if field.Name == "FGEOGPJOGEG" and type:GetMethod("EOIEBBHABJO") then
                 excel_loader_classes[#excel_loader_classes + 1] = type.Name
             end
         end
     end
     for _, key in ipairs(excel_loader_classes) do
-        dump_excel(key, "HJGCEDGOGDH")
+        dump_excel(key, "EOIEBBHABJO")
     end
     set_uid("complete")
 end
